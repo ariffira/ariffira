@@ -1,0 +1,8 @@
+  /* css comments */   
+  #content {
+     text-align: center;
+     margin: 20%;
+     color: blue;
+     background-color: brown;
+     opacity: 0.8; /* makes thing tranparent: value from 1 to 0*/
+  }

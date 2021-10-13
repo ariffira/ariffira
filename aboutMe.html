@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+
+        a {
+            color: white;
+        }
+        a:visited {
+            color: yellow;
+        }
+        a:hover {
+            color: red;
+        }
+        a:active {
+            color: green;
+        }
+
+        /* css comments */   
+        #content {
+           text-align: center;
+           color: black;
+           background-color: rgb(219, 170, 105, 0.5);
+           font-size: 20px;
+           width: 600px;
+           height: 600px;
+           border-radius: 50%;
+           position: relative;
+           top: 80px;
+           left: 30%;
+           right: 30%;
+           color: white;
+        }
+        #content:hover{
+            border: 7px solid rgb(2, 1, 53);
+           background-color: rgb(2, 1, 53, 0.7);
+        }
+        #profilePic {
+            width: 250px;
+            height: 200px;
+            border-radius: 50%;
+        }
+     </style>
+</head>
+<body>
+
+    <div id="topMenu">
+        <!-- Top Menu start-->
+        <a href="index.html">Home</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="gallery.html">Gallery Page</a>
+        <a href="contactMe.html">Contact Me</a>
+        <!-- Top Menu end-->
+    </div>
+    
+    <!-- About Me Page content-->
+    <div id="content">
+        <img src="images/mypic.jpeg" alt="no image" id="profilePic">
+        <br>
+        <b>About me: </b><br>
+        I am Arif. I am a teacher. I work for DCI last 2 years. 
+        <br>
+        <!-- i(italic text)-->
+        <b><i>Education: </i></b>
+        Masters of Computer Engineering(M.Sc)
+        <address>
+            <b>Adress: </b><br>
+            Twingenbergplatz 78, 42130<br>
+            Germany
+        </address>
+        <i class="fa fa-facebook-square"></i>        
+    </div>
+    
+</body>
+</html>
