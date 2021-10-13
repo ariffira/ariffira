@@ -3,7 +3,7 @@ body {
     background-size: cover;
   }
   a {
-      color: white;
+      color: rgb(85, 3, 3);
   }
   a:visited {
       color: yellow;
